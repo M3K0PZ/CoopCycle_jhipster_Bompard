@@ -1,0 +1,28 @@
+{
+  "coopCycleApp": {
+    "order": {
+      "home": {
+        "title": "Orders",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Maak een nieuwe Order",
+        "createOrEditLabel": "Maak of wijzig een Order",
+        "notFound": "No Orders found"
+      },
+      "created": "A new Order is created with identifier {{ param }}",
+      "updated": "A Order is updated with identifier {{ param }}",
+      "deleted": "A Order is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Bent u zeker dat u Order {{ id }} wilt verwijderen?"
+      },
+      "detail": {
+        "title": "Order"
+      },
+      "id": "ID",
+      "orderId": "Order Id",
+      "client": "Client",
+      "restaurant": "Restaurant",
+      "basket": "Basket",
+      "payment": "Payment"
+    }
+  }
+}

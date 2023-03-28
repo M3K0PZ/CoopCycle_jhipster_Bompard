@@ -1,0 +1,25 @@
+{
+  "coopCycleApp": {
+    "payment": {
+      "home": {
+        "title": "Payments",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Payment を追加",
+        "createOrEditLabel": "Paymentを追加または編集",
+        "notFound": "No Payments found"
+      },
+      "created": "A new Payment is created with identifier {{ param }}",
+      "updated": "A Payment is updated with identifier {{ param }}",
+      "deleted": "A Payment is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Payment {{ id }}を削除してもよろしいですか？"
+      },
+      "detail": {
+        "title": "Payment"
+      },
+      "id": "ID",
+      "paymentMethod": "Payment Method",
+      "order": "Order"
+    }
+  }
+}

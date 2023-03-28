@@ -1,0 +1,88 @@
+// =================================
+// Enums
+// =================================
+
+enum UserRole {
+  CLIENT,
+  RESTAURATEUR,
+  LIVREUR
+}
+
+enum BasketState {
+  NOTFINISHED, VALIDATED, PAID
+}
+
+enum PaymentMethod {
+  CB, BITCOIN, PAYPAL, IZLY
+}
+
+enum Disponibility {
+  AVAILABLE, UNAVAILABLE
+}
+
+// =================================
+// Entities
+// =================================
+
+entity User {
+  userId Long required
+  login String required minlength(3) maxlength(50) unique
+  password String required minlength(8) maxlength(50)
+  role UserRole required
+}
+
+entity Restaurant {
+  restaurantId Long required
+  name String required minlength(1) maxlength(100)
+  description String maxlength(1000)
+}
+
+entity Cooperative {
+  cooperativeId Long required
+  name String minlength(1) maxlength(100)
+  area String maxlength(100)
+}
+
+entity Basket {
+  basketId Long required
+  basketState BasketState required
+}
+
+entity Payment {
+  paymentMethod PaymentMethod required
+}
+
+entity Order {
+  orderId Long required
+}
+
+entity Product {
+  price BigDecimal required min(0) max(999999999)
+  disponibility Disponibility required
+  description String maxlength(1000)
+}
+
+// =================================
+// Relationships
+// =================================
+
+relationship ManyToMany {
+  Cooperative{restaurant} to Restaurant{cooperative}
+}
+
+relationship ManyToOne {
+  Basket{customer} to User
+  Order{client} to User
+  Order{restaurant} to Restaurant
+  Product{restaurant} to Restaurant
+}
+
+relationship OneToOne {
+  Basket{user} to User{basket}
+  Basket{order} to Order{basket}
+  Payment{order} to Order{payment}
+}
+
+dto * with mapstruct
+service * with serviceImpl
+paginate * with pagination

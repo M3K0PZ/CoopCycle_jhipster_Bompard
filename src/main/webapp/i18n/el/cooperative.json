@@ -1,0 +1,27 @@
+{
+  "coopCycleApp": {
+    "cooperative": {
+      "home": {
+        "title": "Cooperatives",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Δημιουργήστε ένα νέο Cooperative",
+        "createOrEditLabel": "Δημιουργήστε η επεξεργαστείτε ένα Cooperative",
+        "notFound": "No Cooperatives found"
+      },
+      "created": "Ένα νέο Cooperative έχει δημιουργηθεί με αναγνωριστικό {{ param }}",
+      "updated": "Ένα Cooperative έχει ενημερωθεί με αναγνωριστικό {{ param }}",
+      "deleted": "Ένα Cooperative έχει διαγραφτεί με αναγνωριστικό {{ param }}",
+      "delete": {
+        "question": "Είστε βέβαιοι όταν θέλετε να διαγράψετε το ακόλουθο Cooperative {{ id }};"
+      },
+      "detail": {
+        "title": "Cooperative"
+      },
+      "id": "ID",
+      "cooperativeId": "Cooperative Id",
+      "name": "Name",
+      "area": "Area",
+      "restaurant": "Restaurant"
+    }
+  }
+}

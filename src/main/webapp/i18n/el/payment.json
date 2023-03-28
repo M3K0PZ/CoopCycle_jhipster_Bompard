@@ -1,0 +1,25 @@
+{
+  "coopCycleApp": {
+    "payment": {
+      "home": {
+        "title": "Payments",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Δημιουργήστε ένα νέο Payment",
+        "createOrEditLabel": "Δημιουργήστε η επεξεργαστείτε ένα Payment",
+        "notFound": "No Payments found"
+      },
+      "created": "Ένα νέο Payment έχει δημιουργηθεί με αναγνωριστικό {{ param }}",
+      "updated": "Ένα Payment έχει ενημερωθεί με αναγνωριστικό {{ param }}",
+      "deleted": "Ένα Payment έχει διαγραφτεί με αναγνωριστικό {{ param }}",
+      "delete": {
+        "question": "Είστε βέβαιοι όταν θέλετε να διαγράψετε το ακόλουθο Payment {{ id }};"
+      },
+      "detail": {
+        "title": "Payment"
+      },
+      "id": "ID",
+      "paymentMethod": "Payment Method",
+      "order": "Order"
+    }
+  }
+}

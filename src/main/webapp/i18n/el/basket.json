@@ -1,0 +1,28 @@
+{
+  "coopCycleApp": {
+    "basket": {
+      "home": {
+        "title": "Baskets",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Δημιουργήστε ένα νέο Basket",
+        "createOrEditLabel": "Δημιουργήστε η επεξεργαστείτε ένα Basket",
+        "notFound": "No Baskets found"
+      },
+      "created": "Ένα νέο Basket έχει δημιουργηθεί με αναγνωριστικό {{ param }}",
+      "updated": "Ένα Basket έχει ενημερωθεί με αναγνωριστικό {{ param }}",
+      "deleted": "Ένα Basket έχει διαγραφτεί με αναγνωριστικό {{ param }}",
+      "delete": {
+        "question": "Είστε βέβαιοι όταν θέλετε να διαγράψετε το ακόλουθο Basket {{ id }};"
+      },
+      "detail": {
+        "title": "Basket"
+      },
+      "id": "ID",
+      "basketId": "Basket Id",
+      "basketState": "Basket State",
+      "user": "User",
+      "order": "Order",
+      "customer": "Customer"
+    }
+  }
+}

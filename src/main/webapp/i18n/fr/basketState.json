@@ -1,0 +1,10 @@
+{
+  "coopCycleApp": {
+    "BasketState": {
+      "null": "",
+      "NOTFINISHED": "NOTFINISHED",
+      "VALIDATED": "VALIDATED",
+      "PAID": "PAID"
+    }
+  }
+}

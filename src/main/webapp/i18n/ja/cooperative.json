@@ -1,0 +1,27 @@
+{
+  "coopCycleApp": {
+    "cooperative": {
+      "home": {
+        "title": "Cooperatives",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Cooperative を追加",
+        "createOrEditLabel": "Cooperativeを追加または編集",
+        "notFound": "No Cooperatives found"
+      },
+      "created": "A new Cooperative is created with identifier {{ param }}",
+      "updated": "A Cooperative is updated with identifier {{ param }}",
+      "deleted": "A Cooperative is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Cooperative {{ id }}を削除してもよろしいですか？"
+      },
+      "detail": {
+        "title": "Cooperative"
+      },
+      "id": "ID",
+      "cooperativeId": "Cooperative Id",
+      "name": "Name",
+      "area": "Area",
+      "restaurant": "Restaurant"
+    }
+  }
+}
